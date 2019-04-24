@@ -19,6 +19,7 @@ class Calculator():
         self.total = (float(self.input_1 / self.input_2))
     def run_calculator(self):
         while True:
+            print('Welcome to the Calculator')
             self.get_input_1()
             self.get_input_2()
             self.addition()
